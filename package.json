@@ -1,0 +1,23 @@
+{
+  "name": "dot_api",
+  "version": "1.0.0",
+  "description": "API Automation using webdriver.io",
+  "main": "index.js",
+  "author": "oimtrust",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.22.20",
+    "@babel/preset-env": "^7.22.20",
+    "@babel/register": "^7.22.15",
+    "@wdio/browser-runner": "^8.16.12",
+    "@wdio/cli": "^8.16.12",
+    "@wdio/mocha-framework": "^8.16.12",
+    "@wdio/spec-reporter": "^8.16.12"
+  },
+  "scripts": {
+    "oim:test": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "axios": "^1.5.0"
+  }
+}
